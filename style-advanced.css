@@ -1,0 +1,51 @@
+/* attribute 
+div[class="car"]{
+    color: red;
+}*/
+/* another way
+[class="car"]{
+    color: red;*/
+
+
+/* example of >
+div.car > p{
+    color: red;
+}*/
+
+/* example of space
+div.car  p{
+    color: red;
+}*/
+ 
+/*
+h1 + p{
+    color: fuchsia;
+}
+
+div.undercar + p{
+    color: red;
+}
+*/
+
+/*
+div + p{
+    color: pink;
+}
+*/
+
+/*
+div ~ p{
+    color: pink;
+}
+*/
+[class|=ab]
+{
+    color: navajowhite;
+}
+
+
+
+
+
+
+

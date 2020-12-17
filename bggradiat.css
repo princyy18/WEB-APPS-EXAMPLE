@@ -1,0 +1,18 @@
+.box{
+    border: 2px solid blue;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+/*
+    background: repeating-linear-gradient(to right,red ,pink);
+*/
+    background: radial-gradient(closest-side at 70% 55%,red 30%,green);
+    
+    
+    
+    
+    
+    
+    
+    
+}

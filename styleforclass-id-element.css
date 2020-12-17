@@ -1,0 +1,26 @@
+h1 + p{
+    color: fuchsia;
+}
+h1 ~ p{
+    color: royalblue;
+}
+
+
+.box h1{
+    color: firebrick;
+}
+.box > h1{
+    color: pink;
+}
+
+h2[class="h2-attr"]
+{
+    color: yellow;
+}
+
+input[type="text" ]{
+    border-color: red;
+}
+input[type="email"]{
+    border-color: blue;
+}

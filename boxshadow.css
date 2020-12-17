@@ -1,0 +1,28 @@
+h1,h3{
+    color: blueviolet;
+    text-align: center;
+}
+img{
+    border-radius: 10%;
+}
+.pic img{
+    width: 600px;
+}
+.pic3{
+    width: 700px;
+}
+.pic{
+    display: inline;
+    margin-left: 30px;
+}
+.box{
+    text-align: center;
+}
+.bd{
+    background: red;
+    border: 3px solid red;
+}
+img:hover{
+    box-shadow: 5px 5px 8px 0px black;
+}
+}

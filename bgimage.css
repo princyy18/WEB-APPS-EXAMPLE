@@ -1,0 +1,63 @@
+.bimg{
+    width: 1500px;
+    height: 750px;
+    border: 2px solid black;
+    background-image: url("../images/virat.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 400px;
+    background-position:top right;
+    background-color: rgba(255,150,120,0.3);
+}
+.origin{
+    border: 9px dotted black;
+    width: 700px;
+    height: 150px;
+    padding: 30px;
+    background-repeat: no-repeat;
+     background-image: url("../images/virat.jpg");
+    background-size: 200px;
+    
+    background-origin:content-box;
+}
+.origin2{
+    border: 9px dotted black;
+    width: 700px;
+    height: 150px;
+    background-repeat: no-repeat;
+     background-image: url("../images/virat.jpg");
+    background-size: 200px;
+    background-origin: border-box;
+}
+
+.origin3{
+    border: 9px dotted black;
+    width: 700px;
+    height: 150px;
+    padding: 30px;
+    background-repeat: no-repeat;
+     background-image: url("../images/virat.jpg");
+    background-size: 200px;
+    
+    background-origin:padding-box;
+}
+
+.clip1{
+    border: 8px dotted red;
+    background: rgb(23,223,255);
+    background-clip: content-box;
+     padding: 15px;
+}
+.clip2{
+    border: 8px dotted red;
+    background: rgb(23,223,255);
+    background-clip: border-box;
+     padding: 15px;
+}
+.clip3{
+    border: 8px dotted red;
+    background: rgb(23,223,255);
+    background-clip: padding-box;
+    background-origin: content-box;
+     padding: 15px;
+}

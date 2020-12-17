@@ -1,0 +1,66 @@
+/*
+input:focus{
+    border: 10px solid pink;
+}
+*/
+/*
+
+input[type="checkbox"]:checked{
+    box-shadow: 0 0 0 3px pink;
+}*/
+/*
+
+input[type="checkbox"]:checked + label{
+    color: red;
+}*/
+
+
+/*
+input:disabled{
+   border: 6px solid red;
+}
+
+input:enabled{
+    border: 3px solid pink;
+}
+*/
+
+/*
+input:required{
+    background: red;
+}
+
+input:optional{
+    background: yellow;
+}
+*/
+/*
+input:read-only{
+    background: pink;
+}
+*/
+/*
+input:read-write{
+    background: red;
+}
+*/
+input[type="text"]:invalid{
+ background: red;   
+}
+
+input[type="text"]:valid{
+ background: pink;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

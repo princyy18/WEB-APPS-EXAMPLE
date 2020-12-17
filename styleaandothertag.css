@@ -1,0 +1,31 @@
+
+a{
+    font-size: 25px;
+    
+}
+ul {
+    display: table; 
+    margin: 0 auto;
+}
+.allp{
+    text-align: center;
+    font-size: 20px;
+}
+
+.allp p:target{
+    background: hotpink;
+}
+
+
+ul a:visited{
+    color: greenyellow;
+}
+ul a:link{
+    color: hotpink;
+}
+ul a:active{
+    color: deepskyblue;
+}
+ul a:hover{
+    background: blue;
+}
